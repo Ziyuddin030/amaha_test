@@ -20,28 +20,24 @@ This Rails 8 API accepts a file (`customers.txt`) containing customer records in
 Clone the repository and install gems:
 
 ```bash
-git clone https://github.com/your-org/customer-invitation-api.git
-cd customer-invitation-api
+git clone https://github.com/Ziyuddin030/amaha_test.git
+cd amaha_test
 bundle install
 ```
 
-* Setup
-- cd amaha_test
-- bundle install
-
 * Database creation
-- bin/rails db:create db:migrate
+  - bin/rails db:create db:migrate
 
 * Run the test suite
     - bundle exec rspec
-    -rubocop -A
+    - rubocop -A
 
 * Project
-- rails server
+  - rails server
 ---
 
 ## Example Usage(Swagger)
- Visit localhost:3000/api-docs
+ Visit http://localhost:3000/api-docs
 - goto -> Api section -> "Try it now button" select customer.txt file -> Click on  "Execute" button.
 
 ## Example Usage(Postman)

@@ -48,3 +48,6 @@ bundle install
 ## Documentation of API :-
 I have used swagger gem to build documentation on API. Also it can upload ```customer.txt``` file.
 - Link (```http://localhost:3000/api-docs```)
+
+## Customers Data(JSON) :-
+- https://assets.theinnerhour.com/take-home-test/customers.txt

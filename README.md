@@ -39,6 +39,8 @@ bundle install
 ## Example Usage(Swagger)
  Visit http://localhost:3000/api-docs
 - goto -> Api section -> "Try it now button" select customer.txt file -> Click on  "Execute" button.
+- [amaha.webm](https://github.com/user-attachments/assets/5f8cefa6-1491-4073-94ec-bbaa006c43be)
+
 
 ## Example Usage(Postman)
  curl -X POST http://localhost:3000/api/v1/customers/nearby \
